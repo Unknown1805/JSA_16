@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+#menu_png{
+    width: 100%;
+    filter: brightness(35%);
+    object-fit: cover;
+}
+
+#logo{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+        position: absolute;
+        top: 45px;
+        left: 300px;
+        z-index: 1;
+        width: 6.5%;
+}
+
+#btn_1, #btn_3, #btn_2, #btn_4, #btn_5, #btn_6{
+    position: absolute;
+    top: 75px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#btn_1{
+    left: 550px;
+}
+
+#btn_2{
+    left: 750px;
+}
+
+#btn_3{
+    left: 950px;
+}
+
+#btn_4{
+    left: 1125px;
+}
+
+#title{
+    position: absolute;
+    top: 270px;
+    left: 140px;
+    color: white;
+    font-size: 48px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#btn_5{
+    left: 140px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 155px;
+    background-color: orange;
+    padding-left: 40px;
+    padding-right: 40px;
+    top: 400px;
+}
+
+#btn_6{
+    left: 350px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 155px;
+    background-color: transparent;
+    padding-left: 25px;
+    padding-right: 25px;
+    top: 400px;
+    border: 1px solid orange;
+    color: orange;
+}
+
+#title_2{
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#title_2::after {
+    display: block;
+    height: 4px;
+    background-color: #e67622;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+    
+
+#sub{
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+}
+
+.page2{
+    height: 700px;
+    background-color: white;
+}
+
+.header{
+    height: 300px;
+}
+
+ion-icon{
+    font-size: 64px;
+    color: #e67e22;
+}
+
+.content1 , .content2, .content3, .content4 {
+    width: 270px;
+    display: inline-block;
+    margin: 11px;
+}
+
+.content1{
+    margin-left: 30px;
+}
+
+.page3{
+    display: inline-block;
+}
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8 {
+    width: 100%;
+    display: inine-block;
+    vertical-align: middle;
+    /* opacity: 0.7;
+    width: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s; 
+    opacity: 0.5s; */
+}
+
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover, #pic5:hover, #pic6:hover, #pic7:hover, #pic8:hover {
+        opacity: 1;
+        transform: scale(1.03);
+}
+li{
+    list-style-type: none;
+    width: 25%;
+}
+
+.page3_1{
+    line-height: 0px;
+    display: flex;
+}
+
+.page3_2{
+    line-height: 0px;
+    display: flex;
+}
+
+.page4{
+    height: 700px;
+}
+
+#title_pg4{
+    font-size: 40px;
+    position: relative;
+    top: 70px;
+    left: 220px
+}
+
+#title_pg4::after {
+    display: block;
+    height: 2px;
+    background-color: #e67622;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    left: -200px;
+}
+
+#phone{
+    width: 20%;
+    position: relative;
+    top: 150px;
+    left:250px;
+}
+
+
+#star_1{
+    position: relative;
+    top: -200px;
+    left: 380px;
+    display: inline-block;
+}
+
+#star_2{
+    position: relative;
+    top: -100px;
+    left: -218px;
+    display: inline-block;
+}
+
+#star_3{
+    position: relative;
+    top: 0px;
+    left: 233px;
+    display: inline-block;
+}
+
+#content1_pg5{
+    position: relative;
+    top: -220px;
+    left: 390px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#content2_pg5{
+    position: relative;
+    top: -220px;
+    left: -100px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#content3_pg5{
+    position: relative;
+    top: -220px;
+    left: 390px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+
+  

@@ -1,0 +1,23 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.container:hover{
+    background-color: blue;
+}
+
+.sec, .hour, .min {
+    display: inline-block;
+    font-size: 80px;
+}
+
+.time{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
