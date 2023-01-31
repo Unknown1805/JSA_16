@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="mainbar">
+            <div class="logo">
+                <img src="images/logo.png" width="75px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="menu.html">Home</a></li>
+                    <li><a href="products1.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">0đ</div>
+                </div>
+
+                <button type="button" class="btn-buy">Buy Now</button>
+
+                <img src="images/x.png" id="close-cart" width="15px" height="15px">
+
+            </div>
+            <img src="images/cart.png" width="30px" height="30px" id="cart-icon">
+            <img src="images/menu.png" class="mi" onclick="menutoggle()">
+        </div>
+    </div>
+
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="columns">
+                <img src="images/frontimage.png" width="100%">
+            </div>
+            <div class="columns">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span>Register</span>
+                        <hr id="Indicator">
+                    </div>
+
+                    <form id="RegForm">
+                        <input type="text" placeholder="Username" id="name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password" id="pass">
+                        <button type="submit" class="btn1" onclick="return Register()">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footercollumns1">
+                <h3>Download our app</h3>
+                <p>Download app on IOS and Android</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footercollumns2">
+                <img src="images/logo.png">
+                <p>Our goal is to give students the best equipment for school</p>
+            </div>
+            <div class="footercollumns3">
+                <h3>More</h3>
+                <ul>
+                    <li>News</li>
+                    <li>Instructions</li>
+                    <li>Coupons</li>
+                </ul>
+            </div>
+            <div class="footercolumns4">
+                <h3>Follow us on:</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </h3>
+            </div>
+        </div>
+        <hr>
+        <p class="cr">Dice's © 2022. All rights reserved.</p>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

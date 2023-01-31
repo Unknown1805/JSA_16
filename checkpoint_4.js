@@ -32,17 +32,18 @@ function Bai3() {
 
 function bai4() {
   function time() {
+    let date = new Date
     let hour = document.getElementById("hour");
     let min = document.getElementById("min");
     let sec = document.getElementById("sec");
-    let hour_now = new getHour();
-    let min_now = new getMinutes();
-    let sec_now = new getSeconds();
-    hour.innerHTML = hour_now;
-    min.innerHTML = min_now;
-    sec.innerHTML = sec_now;
+    let hour_now = date.getHour();
+    let min_now = date.getMinutes();
+    let sec_now = date.getSeconds();
+    hour.innerText = hour_now;
+    min.innerText = min_now;
+    sec.innerText = sec_now;
   }
-  let count = setInterval(time, 1000);
+  setInterval(time, 1000);
 }
 
-bai4();
+bai4();                                   
